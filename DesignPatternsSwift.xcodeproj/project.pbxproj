@@ -26,6 +26,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Factory/CreditCardPayment.swift,
+				Factory/Factory.md,
 				Factory/GooglePayment.swift,
 				Factory/PaymentFactory.swift,
 				Factory/PaymentProtocol.swift,
