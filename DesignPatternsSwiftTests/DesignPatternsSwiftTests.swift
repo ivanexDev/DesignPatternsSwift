@@ -14,6 +14,13 @@ struct DesignPatternsSwiftTests {
         let payment = PaymentFactory.makePayment(type: .CREDITCARD)
         payment.Pay()
     }
+    
+    @Test func testAbstractFactory() {
+        
+        FornitureClient.sellForniture(factory: ModerFornitureFactory())
+
+        
+    }
 
 
 
